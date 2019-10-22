@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-guide {
+  width: 70vw;
+  text-align: center;
+
+  .heading {
+    h1 {
+      padding: 50px 0;
+    }
+
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+
+  .read-more {
+    width: 35%;
+    margin-top: 20px;
+    padding: 30px 0;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #2b8c2b;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      background: #287928;
+    }
+  }
+}
