@@ -1,9 +1,15 @@
 .register-container {
   width: 30vw;
+  padding: 0 50px;
   background: #a73f3f;
 
   h2 {
     padding: 50px 0;
     text-align: center;
+  }
+
+  label,
+  input {
+    display: block;
   }
 }

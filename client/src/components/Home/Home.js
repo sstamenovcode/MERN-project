@@ -1,20 +1,29 @@
 import React from 'react';
-import Register from '../Register/Register';
-import logo from '../../assets/images/couple.jpg';
 
 import './Home.scss';
 
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="home-guide">
-        <div className="heading">
-          <h1>Online sexual therapy</h1>
-          <img src={logo} alt="Couple" />
-        </div>
-        <button className="read-more">Read more</button>
+      <h1>Sports Guide</h1>
+      <div id="sport-football">
+        <span>Football</span>
       </div>
-      <Register />
+      <div id="sport-tennis">
+        <span>Tennis</span>
+      </div>
+      <div id="sport-table-tennis">
+        <span>Table tennis</span>
+      </div>
+      <div id="sport-basketball">
+        <span>Basketball</span>
+      </div>
+      <div id="sport-volleyball">
+        <span>Volleyball</span>
+      </div>
+      <div id="sport-cycling">
+        <span>Cycling</span>
+      </div>
     </div>
   );
 };

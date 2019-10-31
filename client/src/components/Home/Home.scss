@@ -1,38 +1,83 @@
 .home-container {
-  display: flex;
   width: 100vw;
   height: 100vh;
-}
+  padding: 0 50px;
 
-.home-guide {
-  width: 70vw;
-  text-align: center;
-
-  .heading {
-    h1 {
-      padding: 50px 0;
-    }
-
-    img {
-      width: 50%;
-      height: auto;
-    }
-  }
-
-  .read-more {
-    width: 35%;
-    margin-top: 20px;
-    padding: 30px 0;
-    font-size: 1.1rem;
-    color: #fff;
-    background: #2b8c2b;
-    border: 1px solid #fff;
-    border-radius: 7px;
-    text-transform: uppercase;
+  & > div[id^='sport-'] {
+    position: relative;
+    width: 33%;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid red;
     cursor: pointer;
 
     &:hover {
-      background: #287928;
+      opacity: 0.5;
     }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 10px 0;
+      background: #000;
+      opacity: 0.7;
+    }
+  }
+
+  #sport-football {
+    background-image: url('../../assets/images/football.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sport-tennis {
+    background-image: url('../../assets/images/tennis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sport-table-tennis {
+    background-image: url('../../assets/images/table-tennis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sport-basketball {
+    background-image: url('../../assets/images/basketball.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sport-volleyball {
+    background-image: url('../../assets/images/volleyball.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sport-cycling {
+    background-image: url('../../assets/images/cycling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
   }
 }
