@@ -7,6 +7,7 @@ import TableTennis from './components/TableTennis/TableTennis';
 import Basketball from './components/Basketball/Basketball';
 import Volleyball from './components/Volleyball/Volleyball';
 import Cycling from './components/Cycling/Cycling';
+import NoMatch from './components/NoMatch/NoMatch';
 
 import './App.scss';
 
@@ -35,6 +36,9 @@ const App = () => {
           </Route>
           <Route path="/cycling">
             <Cycling />
+          </Route>
+          <Route path="*">
+            <NoMatch />
           </Route>
         </Switch>
       </div>
